@@ -1,0 +1,5 @@
+"subject","body","label"
+"Update Your Account","Dear user, your account will be suspended unless you verify your information. Click here to proceed.","phishing"
+"Meeting Agenda","Hi team, attached is the agenda for tomorrow's meeting. Let me know if you have any questions.","legit"
+"Your Package is Delayed","We've noticed a delay in your shipment. Please confirm your address immediately by clicking here.","phishing"
+"Project Proposal","Please find attached the project proposal for review. Feedback welcome.","legit"
