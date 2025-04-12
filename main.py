@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from Detector import ml_based, rule_based
+from Data import sample_emails.csv
 
 def combined_prediction(ml_pred, rule_pred):
     if ml_pred == rule_pred:
@@ -26,7 +27,7 @@ def log_misclassifications(df, output_path):
     print(f"\nEvent summary saved to {event_summary_path}")
 
 def main():
-    data_path = os.path.join('data', 'Data/sample_emails.csv')
+    data_path = os.path.join('data', 'sample_emails.csv')
     output_path = os.path.join('data', 'classified_emails.csv')
 
     # x is the input, y is the classification flag from the csv file
