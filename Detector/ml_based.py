@@ -17,7 +17,5 @@ def train_model(X, y):
 
 def predict(model, subject, body):
     input_text = subject + " " + body
-    vectorized_input = model['vectorizer'].transform([input_text])
-    prediction = model['classifier'].predict(vectorized_input)
-    return prediction[0]  # <- Make sure to return the first prediction
-
+    prediction = model.predict([input_text])
+    return prediction[0]
