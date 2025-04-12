@@ -28,9 +28,12 @@ def log_misclassifications(df, output_path):
 def main():
     data_path = os.path.join('data', 'Data/sample_emails.csv')
     output_path = os.path.join('data', 'classified_emails.csv')
-    
-    X, y = ml_based.load_data(data_path)
-    model = ml_based.train_model(X, y)
+
+    # x is the input, y is the classification flag from the csv file
+    x, y = ml_based.load_data(data_path)
+
+    # Model is trained on input and flags
+    model = ml_based.train_model(x, y)
     
     # Example prediction
     test_subject = "Important Notice"
