@@ -16,15 +16,15 @@ A Python-based tool that detects phishing emails using both rule-based and machi
 
 ## Project Structure
 
-phishing_email_detector/ 
+phishing_email_detector/ <br/>
 ├── main.py # Main script to run classification <br/>
-├── detector/ # Rule-based and ML detection modules
-├── responder/ # Auto-responder logic (optional)
-├── utils/ # Email parsing utilities 
-├── data/ 
-│ └── sample_emails.csv # Sample labeled email dataset 
-├── requirements.txt 
-└── README.md
+├── detector/ # Rule-based and ML detection modules<br/>
+├── responder/ # Auto-responder logic (optional)<br/>
+├── utils/ # Email parsing utilities <br/>
+├── data/ <br/>
+│ └── sample_emails.csv # Sample labeled email dataset <br/>
+├── requirements.txt <br/>
+└── README.md<br/>
 
 ## Quick Start
 
