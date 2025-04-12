@@ -5,7 +5,6 @@ A Python-based tool that detects phishing emails using both rule-based and machi
 ---
 
 ## Features
-
 - Rule-Based Detection (keywords and patterns)
 - Machine Learning Detection (TF-IDF + Naive Bayes)
 - Combined Prediction Logic
@@ -18,7 +17,7 @@ A Python-based tool that detects phishing emails using both rule-based and machi
 ## Project Structure
 
 phishing_email_detector/ 
-├── main.py # Main script to run classification'\n'
+├── main.py # Main script to run classification <br/>
 ├── detector/ # Rule-based and ML detection modules
 ├── responder/ # Auto-responder logic (optional)
 ├── utils/ # Email parsing utilities 
