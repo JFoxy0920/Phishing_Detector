@@ -30,7 +30,7 @@ phishing_email_detector/ <br/>
 
 ### 1. Clone the Repo
 
-git clone https://github.com/yourusername/phishing-email-detector.git
+git clone https://github.com/JFoxy0920/Phishing_Detector.git
 cd phishing-email-detector
 
 ### 2. Install Dependencies
