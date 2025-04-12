@@ -34,16 +34,10 @@ git clone https://github.com/yourusername/phishing-email-detector.git
 cd phishing-email-detector
 
 ### 2. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 ### 3. Run the Tool
-bash
-Copy
-Edit
-python main.py
+python main.py <br/>
 Output:
 
 classified_emails.csv — all emails with predicted labels
@@ -53,9 +47,6 @@ classified_emails_misclassified.csv — only misclassified emails
 classified_emails_event_summary.txt — summary of common misclassification types
 
 # Example Email Format:
-csv 
-Copy 
-Edit 
 subject,body,label <br/>
 "Update Your Account","Dear user, click here to verify.",phishing <br/>
 "Meeting Agenda","Here's the agenda for our meeting.",legit<br/>
@@ -67,6 +58,8 @@ Vectorizer: TF-IDF on combined subject + body <br/>
 Fallback: If ML and rule-based disagree, rule-based takes precedence for phishing
 
 # Future Improvements
+Auto-Responder Functionality
+
 Integrate email fetching via IMAP
 
 Train on larger datasets (e.g., Enron, PhishTank)
