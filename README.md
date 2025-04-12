@@ -53,16 +53,16 @@ classified_emails_misclassified.csv — only misclassified emails
 classified_emails_event_summary.txt — summary of common misclassification types
 
 # Example Email Format:
-csv
-Copy
-Edit
-subject,body,label
-"Update Your Account","Dear user, click here to verify.",phishing
-"Meeting Agenda","Here's the agenda for our meeting.",legit
-Model Details
-ML Model: Naive Bayes classifier
+csv 
+Copy 
+Edit 
+subject,body,label <br/>
+"Update Your Account","Dear user, click here to verify.",phishing <br/>
+"Meeting Agenda","Here's the agenda for our meeting.",legit<br/>
+Model Details <br/>
+ML Model: Naive Bayes classifier <br/>
 
-Vectorizer: TF-IDF on combined subject + body
+Vectorizer: TF-IDF on combined subject + body <br/>
 
 Fallback: If ML and rule-based disagree, rule-based takes precedence for phishing
 
