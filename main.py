@@ -26,7 +26,7 @@ def log_misclassifications(df, output_path):
     print(f"\nEvent summary saved to {event_summary_path}")
 
 def main():
-    data_path = os.path.join('data', 'sample_emails.csv')
+    data_path = os.path.join('data', 'Data/sample_emails.csv')
     output_path = os.path.join('data', 'classified_emails.csv')
     
     X, y = ml_based.load_data(data_path)
