@@ -1,21 +1,21 @@
-# 🛡️ Phishing Email Detector
+# 🛡Phishing Email Detector
 
 A Python-based tool that detects phishing emails using both rule-based and machine learning (ML) methods. Designed for cybersecurity projects and hands-on learning, this project supports batch email classification, detailed logging, and misclassification analysis.
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Rule-Based Detection (keywords and patterns)
-- 🤖 Machine Learning Detection (TF-IDF + Naive Bayes)
-- 🧠 Combined Prediction Logic
-- 📊 Batch Classification with Output Logging
-- 📁 Misclassification Reports
-- 🧾 Text-Based Summary of Misclassification Types
+- Rule-Based Detection (keywords and patterns)
+- Machine Learning Detection (TF-IDF + Naive Bayes)
+- Combined Prediction Logic
+- Batch Classification with Output Logging
+- Misclassification Reports
+- Text-Based Summary of Misclassification Types
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 phishing_email_detector/ 
 ├── main.py # Main script to run classification
@@ -27,7 +27,7 @@ phishing_email_detector/
 ├── requirements.txt 
 └── README.md
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repo
 
@@ -53,21 +53,21 @@ classified_emails_misclassified.csv — only misclassified emails
 
 classified_emails_event_summary.txt — summary of common misclassification types
 
-📉 Example Email Format
+# Example Email Format:
 csv
 Copy
 Edit
 subject,body,label
 "Update Your Account","Dear user, click here to verify.",phishing
 "Meeting Agenda","Here's the agenda for our meeting.",legit
-📚 Model Details
+Model Details
 ML Model: Naive Bayes classifier
 
 Vectorizer: TF-IDF on combined subject + body
 
 Fallback: If ML and rule-based disagree, rule-based takes precedence for phishing
 
-🛠️ Future Improvements
+# Future Improvements
 Integrate email fetching via IMAP
 
 Train on larger datasets (e.g., Enron, PhishTank)
