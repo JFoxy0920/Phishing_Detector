@@ -22,7 +22,7 @@ phishing_email_detector/ <br/>
 ├── responder/ # Auto-responder logic (optional)<br/>
 ├── utils/ # Email parsing utilities <br/>
 ├── data/ <br/>
-│ └── sample_emails.csv # Sample labeled email dataset <br/>
+└── sample_emails.csv # Sample labeled email dataset <br/>
 ├── requirements.txt <br/>
 └── README.md<br/>
 
