@@ -1,4 +1,4 @@
-# 🛡Phishing Email Detector
+# Phishing Email Detector
 
 A Python-based tool that detects phishing emails using both rule-based and machine learning (ML) methods. Designed for cybersecurity projects and hands-on learning, this project supports batch email classification, detailed logging, and misclassification analysis.
 
