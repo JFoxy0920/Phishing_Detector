@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import ml_based, rule_based
+from Detector import ml_based, rule_based
 
 def combined_prediction(ml_pred, rule_pred):
     if ml_pred == rule_pred:
