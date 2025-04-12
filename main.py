@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from Detector import ml_based, rule_based
-from Data import sample_emails.csv
+from Data import sample_emails
 
 def combined_prediction(ml_pred, rule_pred):
     if ml_pred == rule_pred:
