@@ -29,6 +29,10 @@ def main():
     data_path = os.path.join('data', 'sample_emails.csv')
     output_path = os.path.join('data', 'classified_emails.csv')
 
+    # Drop rows with missing subject or body
+    df = pd.read_csv(data_path)
+    df.dropna(subset=['subject', 'body'], inplace=True)
+
     # x is the input, y is the classification flag from the csv file
     x, y = ml_based.load_data(data_path)
 
