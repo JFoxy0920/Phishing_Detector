@@ -19,7 +19,7 @@ A Python-based tool that detects phishing emails using both rule-based and machi
 phishing_email_detector/ <br/>
 ├── main.py # Main script to run classification <br/>
 ├── detector/ # Rule-based and ML detection modules<br/>
-├── responder/ # Auto-responder logic (optional)<br/>
+├── responder/ # Auto-responder logic (funcitonality to be improved)<br/>
 ├── utils/ # Email parsing utilities <br/>
 ├── data/ <br/>
 └── sample_emails.csv # Sample labeled email dataset <br/>
